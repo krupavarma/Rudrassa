@@ -1,0 +1,40 @@
+input:focus,select:focus{
+    outline: 0px;
+    
+}
+.selection select,input{
+    
+      border-style: none;
+      border-bottom: 1px solid grey;
+}
+    .head h1{
+    text-align: center;
+    color:grey;
+}
+.heading h1{
+text-align: center;
+font-weight: bold;
+font-size: 50px;
+font-family:  Tahoma;
+}
+.himg img{
+    vertical-align:middle;
+    align: center;
+    width:45%;
+    height:35%;
+    border-radius:5%;
+    
+}
+.col-md-3 h4,p{
+    text-align: center;
+}
+#log {
+    text-align: center;
+}
+.btn-primary{
+    align:center;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}

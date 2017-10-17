@@ -1,0 +1,184 @@
+<!-- <div class="menu">
+    <div class="container-fluid">
+		<div class="navbar-header">
+			<a routerLink="home">Signup<span class="glyphicon glyphicon-door"></span></a>
+		</div>
+		<div>
+			<ul class="nav navbar-nav navbar-right">
+			<li><a routerLink="home">Inst<span class="glyphicon glyphicon-home"></span>rent</a></li>
+       
+			</ul>
+		</div>
+	</div>
+</div> -->
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>SIGNUP<span class="glyphicon glyphicon-user"></span></h2>
+  </div>
+   <div class="col-md-2 col-md-offset-4 insta">
+    <h3>INST<span class="glyphicon glyphicon-home"></span>RENT</h3>
+  </div>
+</div>
+ <!-- <div class="row siginup">
+   <span class="crl" style="color:green">1</span>
+  <span class="colo"> who you are ?</span><input type="text">
+  <span class="crl">2</span>
+  <span class="colo"> Name</span><input type="text">
+   <span class="crl">3</span>
+  <span class="colo"> Phone</span><input type="text">
+   <span class="crl">4</span>
+  <span class="colo"> Email</span><input type="text">
+</div>  -->
+
+<div class="container">
+   <div class="row">
+     <div class="col-md-3">
+       <div class="col-md-2" style="margin-top:25px"><span class="crl" [style.background-color]="isHoussein() ? 'green': 'bl1ack'">1</span></div>
+       <div class="col-md-10">
+         <div class="form-group siginup">
+             <input type="text" class="form-control" (focus)="myFocusVar = true" (blur)="myFocusVar = false" id="usr" placeholder="Who you are?">
+             {{myFocusVar}}
+         </div>
+       </div>
+     </div>
+     <div class="col-md-3">
+         <div class="col-md-2" style="margin-top:25px"><span class="crl">2</span></div>
+         <div class="col-md-10">
+           <div class="form-group siginup">
+               <input type="text" class="form-control" id="usr" placeholder="Name">
+           </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+           <div class="col-md-2" style="margin-top:25px"><span class="crl">3</span></div>
+           <div class="col-md-10">
+             <div class="form-group siginup">
+                 <input type="text" class="form-control" id="usr" placeholder="Phone">
+             </div>
+           </div>
+         </div>
+         <div class="col-md-3">
+             <div class="col-md-2" style="margin-top:25px"><span class="crl">4</span></div>
+             <div class="col-md-10">
+               <div class="form-group siginup">
+                   <input type="text" class="form-control" id="usr" placeholder="Email">
+               </div>
+             </div>
+           </div>
+     
+   </div>
+ </div>
+
+
+
+ <div class="row colo">
+  <h1>Who you are ?</h1>
+</div> 
+
+
+<div class="container-fulid cardsh">
+   <div class="row">
+     <div class=" col-md-3 col-md-offset-2">
+       <div class="thumbnail feature">
+          <i class="glyphicon glyphicon-home"></i>
+           <div class="caption">
+             <h3 style="color:green">LandLord</h3>
+             <p>Praediximus enim Montium sub ipso vivendi termino his vocabulis appellatos fabricarum culpasse tribunos ut adminicula futurae molitioni pollicitos</p>
+             <hr>
+             <a style="color:red">View More</a>
+             
+         </div>
+       </div>
+     </div>
+     
+      <div class="col-md-3">
+       <div class="thumbnail feature">
+          <i class="glyphicon glyphicon-user"></i>
+           <div class="caption">
+             <h3 style="color:green">Tenants</h3>
+             <p>Praediximus enim Montium sub ipso vivendi termino his vocabulis appellatos fabricarum culpasse tribunos ut adminicula futurae molitioni pollicitos</p>
+             <hr>
+             <a style="color:red">View More</a>
+             
+         </div>
+       </div>
+     </div>
+      <div class="col-md-3">
+       <div class="thumbnail feature">
+          <i class="glyphicon glyphicon-cloud"></i>
+           <div class="caption">
+             <h3>TradesMan</h3>
+             <p>Praediximus enim Montium sub ipso vivendi termino his vocabulis appellatos fabricarum culpasse tribunos ut adminicula futurae molitioni pollicitos</p>
+             <hr>
+             <a style="color:red">View More</a>
+             
+         </div>
+       </div>
+     </div>
+
+
+     
+</div><!--/row-->
+</div><!--/container -->
+
+
+<div class="container-fluid">
+    <div class="row">
+      
+         <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/assets/images/card1.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>LandLord</h6>
+                            <p style="font-size: 12px;">It is a very simple card.It is a very simple card</p>
+                            
+                            <a>ViewMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/assets/images/card2.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>LandLord</h6>
+                            <p style="font-size: 12px;">It is a very simple card.It is a very simple card</p>
+                            
+                            <a>ViewMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/assets/images/card3.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>LandLord</h6>
+                            <p style="font-size: 12px;">It is a very simple card.It is a very simple card</p>
+                            
+                            <a>ViewMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>

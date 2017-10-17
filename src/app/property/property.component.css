@@ -1,0 +1,9 @@
+input:focus,select:focus{
+    outline: 0px;
+    
+}
+.selection select,input{
+    
+      border-style: none;
+      border-bottom: 1px solid grey;
+}
